@@ -21,9 +21,10 @@
     </header>
     <!-- Video player-->
     <section class="player">
-        <video src="video/cat.mp4"></video>
+        <video controls src="video/cat.mp4"></video>
     </section>
-
+    <div class="infoAndUpNext">
+            <!-- info -->
     <section class="info">
         <div class="metadata">
             <ul class="hashtags">
@@ -40,9 +41,7 @@
                     <i class="fas fa-caret-down"></i>
                 </button>
             </div>
-            <div class="views">
-                <span class="views">1M views a month ago</span>
-            </div>
+            <span class="views">1M views a month ago</span>        
         </div>
         <div class="actions">
             <li><button><i class="fas fa-thumbs-up"></i><span>1K</span></button>
@@ -61,18 +60,19 @@
             <div class="metadata">
                 <img src="img/avatar.jpg" alt="avatar"/>
                 <div class="info"><span class="name">Kitty</span>
-                    <span class="subscribe">1M subscribers</span>
+                    <span class="subscribers">1M subscribers</span>
                 </div>
             </div>
             <button class="subscribe">SUBSCRIBE</button>
         </div>
     </section>
-
+    <!-- upnext-->
     <section class="UpNext">
         <span class="title">Up next</span>
         <ul>
             <li class="item">
-                <img src="img/obama.jpg" alt="">
+                <div class="img"><img src="img/obama.jpg" alt="">
+                </div>
                 <div class="info">
                     <span class="tile">You can do it!✡ </span>
                     <span class="name">Colin</span>
@@ -81,7 +81,7 @@
                 <button class="more"><i class ="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
-                <img src="img/coco.jpg" alt="">
+                <div class="img"><img src="img/obama.jpg" alt=""></div>
                 <div class="info">
                     <span class="tile">You can do it!✡ </span>
                     <span class="name">Colin</span>
@@ -90,7 +90,7 @@
                 <button class="more"><i class ="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
-                <img src="img/cats.jpg" alt="">
+                <div class="img"><img src="img/obama.jpg" alt=""></div>
                 <div class="info">
                     <span class="tile">You can do it!✡ </span>
                     <span class="name">Colin</span>
@@ -100,5 +100,6 @@
             </li>
         </ul>
     </section>
+    </div>
 </body>
 </html>
